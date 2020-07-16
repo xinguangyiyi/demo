@@ -23,6 +23,7 @@ public class UserController {
     public User find () {
         User user = userService.findUserById(2);
         System.out.print(user);
+        //ceshi上传
         return user;//返回的是json格式的数据
     }
 
